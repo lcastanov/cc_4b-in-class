@@ -38,15 +38,24 @@ products.promoPrice = promoPrice.toFixed(2);
 let customerType = ['Student', 'Senior']
 console.log(customerType);
 
-let orderTotal
+let subtotal
 if (customerType = 'Student') {
-  orderTotal = orderTotal - (orderTotal * .05);
+  subtotal = subtotal - (subtotal * .05);
 } else {
-    console.log(`Student Discount does not apply to order. Your order total is: ${orderTotal}`);
+    console.log(`Student Discount does not apply to order. Your order total is: ${subtotal}`);
 }
 
 if (customerType = 'Senior') {
-  orderTotal = orderTotal - (orderTotal * .07);    
+  subtotal = subtotal - (subtotal * .07);    
 } else {
-    console.log(`Senior Discount does not apply to order. Your order total is: ${orderTotal}`);
+    console.log(`Senior Discount does not apply to order. Your order total is: ${subtotal}`);
 }
+
+
+// Step 6
+
+let cart1 = [
+    {sku: 'I-344', qty: 2},
+    {sku: 'I-101', qty: 1},
+    {sku: 'I-75', qty: 1},
+];
