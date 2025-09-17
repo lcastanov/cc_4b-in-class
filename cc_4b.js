@@ -29,3 +29,19 @@ let promoPrice = products.price - (products.price * discount);
 products.promoPrice = promoPrice.toFixed(2);
 
 }
+
+let customerType = ['Student', 'Senior']
+console.log(customerType);
+
+let orderTotal
+if (customerType = 'Student') {
+  orderTotal = orderTotal - (orderTotal * .05);
+} else {
+    console.log(`Student Discount does not apply to order. Your order total is: ${orderTotal}`);
+}
+
+if (customerType = 'Senior') {
+  orderTotal = orderTotal - (orderTotal * .07);    
+} else {
+    console.log(`Senior Discount does not apply to order. Your order total is: ${orderTotal}`);
+}
