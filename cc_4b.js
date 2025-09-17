@@ -1,5 +1,6 @@
 // Coding Challenge 04b
 
+// Step 2
 let products = [
     {sku: 'I-344', name: 'Almond Milk', category: 'Groceries', price: 3.99, inventory: 35,},
     {sku: 'I-101', name: 'Macbook Air', category: 'Electronics', price: 6.79, inventory: 20,},
@@ -8,6 +9,8 @@ let products = [
     {sku: 'I-198', name: 'Tomatoes', category: 'Groceries', price: 4.99, inventory: 30,},
 ];
 
+
+// Step 3
 for (let products in products) {
     let discount
     
@@ -30,6 +33,8 @@ products.promoPrice = promoPrice.toFixed(2);
 
 }
 
+
+// Step 4
 let customerType = ['Student', 'Senior']
 console.log(customerType);
 
